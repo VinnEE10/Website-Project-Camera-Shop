@@ -1,0 +1,40 @@
+body{
+  background-color: wheat;
+}
+.col{/*Containter*/
+  position: relative;
+  text-align: center;
+  background-color: black;
+}
+.centered {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 1s;
+  width: auto;
+  height: auto;
+}
+.col:hover>.centered{
+  opacity: 1;
+  color: white;
+  
+}
+.col>img{
+  transition: 1s filter linear;
+  transition: 1s filter grey;
+}
+.col:hover>img{
+  
+  filter: blur(2px) grayscale(.45);
+  color: black;
+}
+
+  /*refrers to centered Text*/
+  
+  
+  
+
+
+  
