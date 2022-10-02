@@ -1,0 +1,40 @@
+body{
+    background-color: wheat;
+}
+
+#cards{
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#request{
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    opacity: 0;
+}
+#request:hover{
+    transition: .5s opacity;
+    opacity: 1;
+}
+#cards:hover+#request{
+    transition: .5s opacity;
+    opacity: 1;
+}
+
+#adminpanel{
+    background-color: rgb(106, 223, 106);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    opacity: 0;
+    transition: .5s opacity;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#adminpanel:hover{
+    opacity: 1;
+}
