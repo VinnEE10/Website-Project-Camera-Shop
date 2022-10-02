@@ -1,0 +1,30 @@
+body{
+    background-color: wheat;
+  }
+  .col{/*Containter*/
+    transition: 1s filter ease-in-out;
+  }
+  .container-fluid{
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .container-fluid>img{
+    transition: 1s filter ease-in-out; 
+  }
+  .container-fluid:hover>img{
+    filter: blur(2px) grayscale(.45);
+    color: black;
+    
+  }
+  .container-fluid>p{
+    transition: 1s opacity; 
+    opacity: 0;
+    color: white;
+  }
+  .container-fluid:hover>p{
+    
+    opacity: 1;
+    color: white;
+    
+    
+  }
